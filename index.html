@@ -2,30 +2,239 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to My GitHub Page!</title>
+  <title>Postgraduate Entrance Exam Information Portal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Resources and guidance for students on entrance exams for postgraduate courses (MA, MCA, MBA) in India.">
   <style>
-    body { 
-      font-family: Arial, sans-serif; 
-      margin: 2rem; 
-      background: #f4f4f4; 
+    body {
+      background: #eef2f7;
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #222;
     }
-    h1 { color: #333366; }
-    p { color: #444; }
-    a { color: #007acc; }
+    header {
+      background: #234078;
+      color: #fff;
+      padding: 1.5rem 2rem;
+      text-align: center;
+    }
+    nav {
+      margin: 1rem 0;
+      background: #183157;
+      padding: 0.5rem 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 1.5rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 850px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(60,80,105,0.08);
+    }
+    h1, h2, h3 {
+      color: #234078;
+    }
+    ul {
+      line-height: 1.6;
+      padding-left: 1.5rem;
+    }
+    .exam-block {
+      background: #f4fafe;
+      margin-bottom: 2rem;
+      padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+      border-left: 6px solid #234078;
+      border-radius: 6px;
+    }
+    .exam-block h3 {
+      margin-top: 0;
+    }
+    .contact-form label {
+      display: block;
+      margin: 0.7rem 0 0.3rem 0;
+    }
+    .contact-form input,
+    .contact-form textarea {
+      width: 96%;
+      padding: 0.7rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 0.7rem;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #234078;
+      color: #fff;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 1.5rem;
+    }
+    .contact-form button:hover {
+      background: #183157;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #f4fafe;
+      color: #234078;
+      font-size: 0.97rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 600px) {
+      section {
+        padding: 1rem;
+        margin: 1rem;
+      }
+      nav a {
+        margin: 0 0.7rem;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Welcome to My GitHub Pages Site</h1>
-  <p>This is the index page for my personal website hosted on GitHub Pages.</p>
-  <ul>
-    <li><a href="about.html">About Me</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+  <header>
+    <h1>Postgraduate Entrance Exam Information Portal</h1>
+    <p>Your gateway to MA, MCA, and MBA admissions</p>
+  </header>
+  <nav>
+    <a href="#ma">MA Entrance Exams</a>
+    <a href="#mca">MCA Entrance Exams</a>
+    <a href="#mba">MBA Entrance Exams</a>
+    <a href="#resources">Resources</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="ma">
+    <div class="exam-block">
+      <h2>MA Entrance Exams</h2>
+      <h3>Popular Exams:</h3>
+      <ul>
+        <li>
+          <strong>Central Universities Entrance Test (CUET-PG):</strong> For admission to MA programs in Central Universities and other participating institutions.
+        </li>
+        <li>
+          <strong>Jawaharlal Nehru University Entrance Exam (JNUEE):</strong> MA programs at JNU.
+        </li>
+        <li>
+          <strong>Banaras Hindu University Postgraduate Entrance Test (BHU PET):</strong> Admission to MA at BHU.
+        </li>
+        <li>
+          <strong>Delhi University Entrance Test (DUET):</strong> For MA and other postgraduate courses at DU.
+        </li>
+      </ul>
+      <p>
+        <strong>Eligibility:</strong> Bachelor’s degree in relevant discipline. Minimum percentage varies by university.
+      </p>
+      <p>
+        <strong>Syllabus:</strong> Subject knowledge, general aptitude, social sciences, literature (based on course).
+      </p>
+    </div>
+  </section>
+
+  <section id="mca">
+    <div class="exam-block">
+      <h2>MCA Entrance Exams</h2>
+      <h3>Major Exams:</h3>
+      <ul>
+        <li>
+          <strong>NIT MCA Common Entrance Test (NIMCET):</strong> Entry to NITs for MCA programs.
+        </li>
+        <li>
+          <strong>MAH MCA CET:</strong> For MCA admissions in Maharashtra universities.
+        </li>
+        <li>
+          <strong>CUET-PG:</strong> Participating Central Universities.
+        </li>
+        <li>
+          <strong>WB JECA:</strong> MCA admissions in West Bengal.
+        </li>
+      </ul>
+      <p>
+        <strong>Eligibility:</strong> Bachelor’s degree with Mathematics as a subject.
+      </p>
+      <p>
+        <strong>Syllabus:</strong> Mathematics, Logical Reasoning, Computer Awareness, General English.
+      </p>
+    </div>
+  </section>
+
+  <section id="mba">
+    <div class="exam-block">
+      <h2>MBA Entrance Exams</h2>
+      <h3>Top Exams:</h3>
+      <ul>
+        <li>
+          <strong>Common Admission Test (CAT):</strong> For IIMs and other B-Schools.
+        </li>
+        <li>
+          <strong>Xavier Aptitude Test (XAT):</strong> XLRI and other management colleges.
+        </li>
+        <li>
+          <strong>Management Aptitude Test (MAT):</strong> Accepting B-Schools across India.
+        </li>
+        <li>
+          <strong>Graduate Management Admission Test (GMAT):</strong> For global MBA programs.
+        </li>
+        <li>
+          <strong>Symbiosis National Aptitude Test (SNAP):</strong> For Symbiosis institutes.
+        </li>
+        <li>
+          <strong>MAH MBA CET:</strong> MBA programs in Maharashtra.
+        </li>
+      </ul>
+      <p>
+        <strong>Eligibility:</strong> Bachelor’s degree with minimum 50% marks (varies).
+      </p>
+      <p>
+        <strong>Syllabus:</strong> Quantitative Aptitude, Data Interpretation, Logical Reasoning, Verbal Ability, General Awareness.
+      </p>
+    </div>
+  </section>
+
+  <section id="resources">
+    <h2>Helpful Resources</h2>
+    <ul>
+      <li><strong>Official Exam Websites:</strong> Check for latest notifications, syllabus, and dates.</li>
+      <li><strong>Sample Papers:</strong> Download or practice previous year question papers.</li>
+      <li><strong>Preparation Books:</strong> Refer recommended books for each exam.</li>
+      <li><strong>Discussion Forums:</strong> Participate in online student communities for peer guidance.</li>
+      <li><strong>Counselling and Admission Info:</strong> Get details on counselling schedules and college choices.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Feedback</h2>
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Your Message or Query:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+    <p style="font-size:0.95rem; color:#183157;">
+      For urgent queries, email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
+    </p>
+  </section>
+
   <footer>
-    <hr>
-    <small>&copy; 2025 Your Name</small>
+    &copy; 2025 Entrance Exam Info Portal | Made for students  
   </footer>
 </body>
 </html>
