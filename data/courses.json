@@ -4,284 +4,190 @@
   "programs": [
     {
       "name": "Master of Arts (MA)",
-      "eligibility": ["Bachelor's degree in relevant arts, humanities or social sciences"],
-      "duration": "2 years",
       "specializations": ["Literature", "History", "Political Science", "Economics", "Sociology", "Languages"]
     },
     {
       "name": "Master of Science (MSc)",
-      "eligibility": ["Bachelor's degree in Science, Technology, or related fields"],
-      "duration": "2 years",
       "specializations": ["Physics", "Chemistry", "Mathematics", "Biology", "Computer Science", "Statistics"]
     },
     {
       "name": "Master of Commerce (MCom)",
-      "eligibility": ["Bachelor's degree in Commerce or related field"],
-      "duration": "2 years",
       "specializations": ["Accounting", "Finance", "Business Economics", "Banking", "Insurance"]
     },
     {
       "name": "Master of Business Administration (MBA)",
-      "eligibility": ["Bachelor's degree in any discipline with valid management entrance exam (CAT, XAT, etc.)"],
-      "duration": "2 years",
       "specializations": ["Finance", "Marketing", "Human Resources", "Operations", "Information Technology"]
     },
     {
       "name": "Master of Computer Applications (MCA)",
-      "eligibility": ["Bachelor's degree with Mathematics/Statistics as compulsory subject"],
-      "duration": "3 years",
       "specializations": ["Software Development", "Web Technologies", "Database Management", "Networking"]
     },
     {
       "name": "Master of Technology (MTech)",
-      "eligibility": ["BTech/BE or equivalent engineering degree"],
-      "duration": "2 years",
       "specializations": ["Computer Science", "Mechanical", "Electrical", "Civil", "Electronics", "Chemical"]
     },
     {
       "name": "Master of Social Work (MSW)",
-      "eligibility": ["Bachelor's degree in any stream"],
-      "duration": "2 years",
       "specializations": ["Community Development", "Medical & Psychiatric", "Rural Development", "Child Welfare"]
     },
     {
       "name": "Master of Education (MEd)",
-      "eligibility": ["BEd degree"],
-      "duration": "2 years",
       "specializations": ["Educational Technology", "Guidance & Counseling", "Special Education", "Curriculum Development"]
     },
     {
       "name": "Master of Public Health (MPH)",
-      "eligibility": ["Bachelor's degree in Medicine, Science or relevant allied fields"],
-      "duration": "2 years",
       "specializations": ["Epidemiology", "Biostatistics", "Health Policy", "Environmental Health", "Global Health"]
     },
     {
       "name": "Master of Fine Arts (MFA)",
-      "eligibility": ["Bachelor's degree in Fine Arts or equivalent"],
-      "duration": "2 years",
       "specializations": ["Painting", "Sculpture", "Printmaking", "Digital Arts", "Art History"]
     },
     {
       "name": "Master of Law (LLM)",
-      "eligibility": ["LLB degree"],
-      "duration": "2 years",
       "specializations": ["Constitutional Law", "Corporate Law", "Criminal Law", "International Law", "Human Rights"]
     },
     {
       "name": "Master of Pharmacy (MPharm)",
-      "eligibility": ["Bachelor of Pharmacy (BPharm)"],
-      "duration": "2 years",
       "specializations": ["Pharmaceutics", "Pharmacology", "Pharmaceutical Chemistry", "Pharmacognosy"]
     },
     {
       "name": "Master of Hospital Administration (MHA)",
-      "eligibility": ["Bachelor's degree in any field, preferably healthcare-related"],
-      "duration": "2 years",
       "specializations": ["Healthcare Management", "Health Policy", "Quality Management", "Health Information Systems"]
     },
     {
       "name": "Master of Journalism and Mass Communication (MJMC)",
-      "eligibility": ["Bachelor's degree in any discipline"],
-      "duration": "2 years",
       "specializations": ["Print Journalism", "Broadcast Journalism", "Digital Media", "Public Relations", "Advertising"]
     },
     {
       "name": "Master of Environmental Science",
-      "eligibility": ["Bachelor's in Science or related field"],
-      "duration": "2 years",
       "specializations": ["Environmental Management", "Climate Change", "Pollution Control", "Sustainable Development"]
     },
     {
       "name": "Master of Architecture (MArch)",
-      "eligibility": ["Bachelor's in Architecture"],
-      "duration": "2 years",
       "specializations": ["Urban Design", "Landscape Architecture", "Conservation", "Sustainable Architecture"]
     },
     {
       "name": "Master of Design (MDes)",
-      "eligibility": ["Bachelor's in Design or related discipline"],
-      "duration": "2 years",
       "specializations": ["Product Design", "Industrial Design", "Fashion Design", "Graphic Design", "Interaction Design"]
     },
     {
       "name": "Master of Library Science (MLIS)",
-      "eligibility": ["Bachelor's in any discipline"],
-      "duration": "1 year",
       "specializations": ["Digital Libraries", "Information Management", "Archival Studies", "Knowledge Management"]
     },
     {
       "name": "Master of Urban Planning",
-      "eligibility": ["Bachelor's in Architecture, Planning, or Engineering"],
-      "duration": "2 years",
       "specializations": ["Urban Design", "Transport Planning", "Environmental Planning", "Housing Planning"]
     },
     {
       "name": "Master of Tourism Administration",
-      "eligibility": ["Bachelor's degree in any field"],
-      "duration": "2 years",
       "specializations": ["Tourism Management", "Hospitality Management", "Travel Management", "Event Management"]
     },
     {
       "name": "Master of International Relations",
-      "eligibility": ["Bachelor's in Social Sciences/Humanities"],
-      "duration": "2 years",
       "specializations": ["Diplomacy", "International Security", "Global Governance", "Regional Studies"]
     },
     {
       "name": "Master of Biotechnology",
-      "eligibility": ["Bachelor's in Science or Biotechnology"],
-      "duration": "2 years",
       "specializations": ["Molecular Biology", "Genetic Engineering", "Bioinformatics", "Industrial Biotechnology"]
     },
     {
       "name": "Master of Statistics",
-      "eligibility": ["Bachelor's in Statistics, Mathematics, or related field"],
-      "duration": "2 years",
       "specializations": ["Applied Statistics", "Biostatistics", "Financial Statistics", "Data Science"]
     },
     {
       "name": "Master of Economics",
-      "eligibility": ["Bachelor's in Economics or related field"],
-      "duration": "2 years",
       "specializations": ["Development Economics", "Financial Economics", "International Economics", "Public Economics"]
     },
     {
       "name": "Master of Psychology",
-      "eligibility": ["Bachelor's in Psychology or related discipline"],
-      "duration": "2 years",
       "specializations": ["Clinical Psychology", "Counseling Psychology", "Industrial Psychology", "Educational Psychology"]
     },
     {
       "name": "Master of Physical Education (MPEd)",
-      "eligibility": ["Bachelor's in Physical Education"],
-      "duration": "2 years",
       "specializations": ["Sports Psychology", "Sports Management", "Exercise Physiology", "Sports Coaching"]
     },
     {
       "name": "Master of Agriculture",
-      "eligibility": ["Bachelor's in Agriculture or related fields"],
-      "duration": "2 years",
       "specializations": ["Agronomy", "Horticulture", "Plant Breeding", "Soil Science", "Agricultural Economics"]
     },
     {
       "name": "Master of Rural Development",
-      "eligibility": ["Bachelor's in Social Sciences/Agriculture"],
-      "duration": "2 years",
       "specializations": ["Rural Planning", "Community Development", "Agricultural Extension", "Rural Finance"]
     },
     {
       "name": "Master of Microbiology",
-      "eligibility": ["Bachelor's in Microbiology or related Science discipline"],
-      "duration": "2 years",
       "specializations": ["Medical Microbiology", "Industrial Microbiology", "Food Microbiology", "Environmental Microbiology"]
     },
     {
       "name": "Master of Geology",
-      "eligibility": ["Bachelor's in Geology or Earth Sciences"],
-      "duration": "2 years",
       "specializations": ["Mineral Exploration", "Petroleum Geology", "Environmental Geology", "Structural Geology"]
     },
     {
       "name": "Master of Anthropology",
-      "eligibility": ["Bachelor's in Anthropology or Social Sciences"],
-      "duration": "2 years",
       "specializations": ["Cultural Anthropology", "Physical Anthropology", "Archaeology", "Applied Anthropology"]
     },
     {
       "name": "Master of Statistics and Informatics",
-      "eligibility": ["Bachelor's in Statistics, Mathematics, or Computer Science"],
-      "duration": "2 years",
       "specializations": ["Data Science", "Statistical Computing", "Business Analytics", "Machine Learning"]
     },
     {
       "name": "Master of Naval Architecture",
-      "eligibility": ["Bachelor's in Naval Architecture or Engineering"],
-      "duration": "2 years",
       "specializations": ["Ship Design", "Marine Engineering", "Offshore Structures", "Marine Technology"]
     },
     {
       "name": "Master of Forensic Science",
-      "eligibility": ["Bachelor's in Science or Forensic Science"],
-      "duration": "2 years",
       "specializations": ["Forensic Biology", "Forensic Chemistry", "Digital Forensics", "Forensic Psychology"]
     },
     {
       "name": "Master of Food Technology",
-      "eligibility": ["Bachelor's in Food Science or related field"],
-      "duration": "2 years",
       "specializations": ["Food Processing", "Food Safety", "Food Quality", "Food Biotechnology"]
     },
     {
       "name": "Master of Clinical Psychology",
-      "eligibility": ["Bachelor's in Psychology or related field"],
-      "duration": "2 years",
       "specializations": ["Clinical Assessment", "Psychotherapy", "Mental Health", "Behavioral Therapy"]
     },
     {
       "name": "Master of Social Work (Medical & Psychiatric)",
-      "eligibility": ["Bachelor's degree in Social Work or allied health"],
-      "duration": "2 years",
       "specializations": ["Medical Social Work", "Psychiatric Social Work", "Healthcare Social Work", "Mental Health"]
     },
     {
       "name": "Master of Urban and Regional Planning",
-      "eligibility": ["Bachelor's in Planning, Architecture, Design, Engineering"],
-      "duration": "2 years",
       "specializations": ["Urban Planning", "Regional Planning", "Transport Planning", "Environmental Planning"]
     },
     {
       "name": "Master of Energy Management",
-      "eligibility": ["Bachelor's degree in Engineering or Science"],
-      "duration": "2 years",
       "specializations": ["Renewable Energy", "Energy Policy", "Energy Economics", "Sustainable Energy"]
     },
     {
       "name": "Master of Nanotechnology",
-      "eligibility": ["Bachelor's in Science or Engineering"],
-      "duration": "2 years",
       "specializations": ["Nanomaterials", "Nanoelectronics", "Nanobiotechnology", "Nanomedicine"]
     },
     {
       "name": "Master of Petroleum Engineering",
-      "eligibility": ["Bachelor's in Petroleum Engineering or related branch"],
-      "duration": "2 years",
       "specializations": ["Reservoir Engineering", "Drilling Engineering", "Production Engineering", "Petroleum Geology"]
     },
     {
       "name": "Master of Executive MBA (EMBA)",
-      "eligibility": ["Bachelor's degree with work experience"],
-      "duration": "2 years",
       "specializations": ["Executive Leadership", "Strategic Management", "Business Administration", "Corporate Management"]
     },
     {
       "name": "Master of Public Policy and Administration",
-      "eligibility": ["Bachelor's degree"],
-      "duration": "2 years",
       "specializations": ["Public Policy", "Public Administration", "Governance", "Policy Analysis"]
     },
     {
       "name": "Master of Event Management",
-      "eligibility": ["Bachelor's degree in any discipline"],
-      "duration": "2 years",
       "specializations": ["Event Planning", "Corporate Events", "Wedding Planning", "Festival Management"]
     },
     {
       "name": "Master of Defense Studies",
-      "eligibility": ["Bachelor's degree with preference for Armed Forces personnel"],
-      "duration": "2 years",
       "specializations": ["Strategic Studies", "Defense Policy", "Military History", "International Security"]
     },
     {
       "name": "Master of Linguistics",
-      "eligibility": ["Bachelor's in Linguistics or related field"],
-      "duration": "2 years",
       "specializations": ["Applied Linguistics", "Computational Linguistics", "Sociolinguistics", "Psycholinguistics"]
     },
     {
       "name": "Master of Cognitive Science",
-      "eligibility": ["Bachelor's degree in Cognitive Science, Psychology, Neuroscience"],
-      "duration": "2 years",
       "specializations": ["Cognitive Psychology", "Neuroscience", "Artificial Intelligence", "Human Cognition"]
     }
   ]

@@ -428,7 +428,7 @@ async function loadAllData() {
       loadEntranceExams(),
       loadTopInstitutes(),
       loadScholarships(),
-      loadEligibilityCriteria(),
+      loadCourses(),
       loadResources(),
     ]);
   } catch (error) {
@@ -452,10 +452,36 @@ async function loadEntranceExams() {
 
     if (data.exams && data.exams.length > 0) {
       container.innerHTML = "";
+
+      // Create table
+      const table = document.createElement("table");
+      table.className = "data-table";
+
+      // Create table header
+      const thead = document.createElement("thead");
+      thead.innerHTML = `
+        <tr>
+          <th>Exam/Institute</th>
+          <th>Programs</th>
+        </tr>
+      `;
+      table.appendChild(thead);
+
+      // Create table body
+      const tbody = document.createElement("tbody");
       data.exams.forEach((exam) => {
-        const examCard = createEntranceExamCard(exam);
-        container.appendChild(examCard);
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td data-label="Exam/Institute">
+            <a href="${exam.website}" target="_blank">${exam.name}</a>
+          </td>
+          <td data-label="Programs">${exam.programs.join(", ")}</td>
+        `;
+        tbody.appendChild(row);
       });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
     } else {
       container.innerHTML =
         '<div class="card"><p>No exam information available at the moment.</p></div>';
@@ -484,10 +510,36 @@ async function loadTopInstitutes() {
 
     if (data.institutes && data.institutes.length > 0) {
       container.innerHTML = "";
+
+      // Create table
+      const table = document.createElement("table");
+      table.className = "data-table";
+
+      // Create table header
+      const thead = document.createElement("thead");
+      thead.innerHTML = `
+        <tr>
+          <th>Institute</th>
+          <th>Programs</th>
+        </tr>
+      `;
+      table.appendChild(thead);
+
+      // Create table body
+      const tbody = document.createElement("tbody");
       data.institutes.forEach((institute) => {
-        const instituteCard = createInstituteCard(institute);
-        container.appendChild(instituteCard);
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td data-label="Institute">
+            <a href="${institute.website}" target="_blank">${institute.name}</a>
+          </td>
+          <td data-label="Programs">${institute.programs.join(", ")}</td>
+        `;
+        tbody.appendChild(row);
       });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
     } else {
       container.innerHTML =
         '<div class="card"><p>No institute information available at the moment.</p></div>';
@@ -516,10 +568,34 @@ async function loadScholarships() {
 
     if (data.scholarships && data.scholarships.length > 0) {
       container.innerHTML = "";
+
+      // Create table
+      const table = document.createElement("table");
+      table.className = "data-table";
+
+      // Create table header
+      const thead = document.createElement("thead");
+      thead.innerHTML = `
+        <tr>
+          <th>Scholarship</th>
+          <th>Eligibility</th>
+        </tr>
+      `;
+      table.appendChild(thead);
+
+      // Create table body
+      const tbody = document.createElement("tbody");
       data.scholarships.forEach((scholarship) => {
-        const scholarshipCard = createScholarshipCard(scholarship);
-        container.appendChild(scholarshipCard);
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td data-label="Scholarship">${scholarship.name}</td>
+          <td data-label="Eligibility">${scholarship.eligibility}</td>
+        `;
+        tbody.appendChild(row);
       });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
     } else {
       container.innerHTML =
         '<div class="card"><p>No scholarship information available at the moment.</p></div>';
@@ -534,10 +610,10 @@ async function loadScholarships() {
   }
 }
 
-// Function to load eligibility criteria
-async function loadEligibilityCriteria() {
+// Function to load courses
+async function loadCourses() {
   try {
-    const response = await fetch("data/eligibility_criteria.json");
+    const response = await fetch("data/courses.json");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
@@ -548,20 +624,46 @@ async function loadEligibilityCriteria() {
 
     if (data.programs && data.programs.length > 0) {
       container.innerHTML = "";
+
+      // Create table
+      const table = document.createElement("table");
+      table.className = "data-table";
+
+      // Create table header
+      const thead = document.createElement("thead");
+      thead.innerHTML = `
+        <tr>
+          <th>Program</th>
+          <th>Specializations</th>
+        </tr>
+      `;
+      table.appendChild(thead);
+
+      // Create table body
+      const tbody = document.createElement("tbody");
       data.programs.forEach((program) => {
-        const programCard = createEligibilityCard(program);
-        container.appendChild(programCard);
+        const row = document.createElement("tr");
+        row.innerHTML = `
+          <td data-label="Program">${program.name}</td>
+          <td data-label="Specializations">${program.specializations.join(
+            ", "
+          )}</td>
+        `;
+        tbody.appendChild(row);
       });
+      table.appendChild(tbody);
+
+      container.appendChild(table);
     } else {
       container.innerHTML =
-        '<div class="card"><p>No eligibility information available at the moment.</p></div>';
+        '<div class="card"><p>No courses available at the moment.</p></div>';
     }
   } catch (error) {
-    console.error("Error loading eligibility criteria:", error);
+    console.error("Error loading courses:", error);
     const container = document.getElementById("eligibility-container");
     if (container) {
       container.innerHTML =
-        '<div class="card"><p>Error loading eligibility information. Please try again later.</p></div>';
+        '<div class="card"><p>Error loading courses information. Please try again later.</p></div>';
     }
   }
 }
@@ -606,202 +708,6 @@ async function loadResources() {
         '<div class="card"><p>Error loading resource information. Please try again later.</p></div>';
     }
   }
-}
-
-// Function to create entrance exam card
-function createEntranceExamCard(exam) {
-  const card = document.createElement("div");
-  card.className = "exam-card";
-
-  card.innerHTML = `
-        <div class="exam-name">${exam.name}</div>
-        <div class="exam-details">
-            <div class="detail-section">
-                <h4>📋 Category & Programs</h4>
-                <p><strong>Category:</strong> ${exam.category}</p>
-                <p><strong>Programs:</strong> ${exam.programs.join(", ")}</p>
-            </div>
-            
-            ${
-              exam.eligibility
-                ? `
-                <div class="detail-section">
-                    <h4>📋 Eligibility</h4>
-                    <ul>
-                        ${exam.eligibility
-                          .map((item) => `<li>${item}</li>`)
-                          .join("")}
-                    </ul>
-                </div>
-            `
-                : ""
-            }
-            
-            ${
-              exam.syllabus
-                ? `
-                <div class="detail-section">
-                    <h4>📚 Syllabus</h4>
-                    <ul>
-                        ${exam.syllabus
-                          .map((item) => `<li>${item}</li>`)
-                          .join("")}
-                    </ul>
-                </div>
-            `
-                : ""
-            }
-            
-            ${
-              exam.importantDates
-                ? `
-                <div class="detail-section">
-                    <h4>📅 Important Dates</h4>
-                    <ul>
-                        ${exam.importantDates
-                          .map((item) => `<li>${item}</li>`)
-                          .join("")}
-                    </ul>
-                </div>
-            `
-                : ""
-            }
-            
-            ${
-              exam.applicationProcess
-                ? `
-                <div class="detail-section">
-                    <h4>📝 Application Process</h4>
-                    <ul>
-                        ${exam.applicationProcess
-                          .map((item) => `<li>${item}</li>`)
-                          .join("")}
-                    </ul>
-                </div>
-            `
-                : ""
-            }
-            
-            ${
-              exam.website
-                ? `
-                <div class="detail-section">
-                    <h4>🌐 Official Website</h4>
-                    <a href="${exam.website}" target="_blank" class="btn btn-secondary">Visit Website</a>
-                </div>
-            `
-                : ""
-            }
-        </div>
-    `;
-
-  return card;
-}
-
-// Function to create institute card
-function createInstituteCard(institute) {
-  const card = document.createElement("div");
-  card.className = "exam-card";
-
-  card.innerHTML = `
-        <div class="exam-name">${institute.name}</div>
-        <div class="exam-details">
-            <div class="detail-section">
-                <h4>🎓 Programs Offered</h4>
-                <ul>
-                    ${institute.programs
-                      .map((item) => `<li>${item}</li>`)
-                      .join("")}
-                </ul>
-            </div>
-            
-            <div class="detail-section">
-                <h4>🔬 Specializations</h4>
-                <ul>
-                    ${institute.specializations
-                      .map((item) => `<li>${item}</li>`)
-                      .join("")}
-                </ul>
-            </div>
-            
-            ${
-              institute.website
-                ? `
-                <div class="detail-section">
-                    <h4>🌐 Official Website</h4>
-                    <a href="${institute.website}" target="_blank" class="btn btn-secondary">Visit Website</a>
-                </div>
-            `
-                : ""
-            }
-        </div>
-    `;
-
-  return card;
-}
-
-// Function to create scholarship card
-function createScholarshipCard(scholarship) {
-  const card = document.createElement("div");
-  card.className = "exam-card";
-
-  card.innerHTML = `
-        <div class="exam-name">${scholarship.name}</div>
-        <div class="exam-details">
-            <div class="detail-section">
-                <h4>📋 Eligibility</h4>
-                <p>${scholarship.eligibility}</p>
-            </div>
-            
-            <div class="detail-section">
-                <h4>💰 Coverage</h4>
-                <p>${scholarship.coverage}</p>
-            </div>
-            
-            <div class="detail-section">
-                <h4>📝 Application</h4>
-                <p>${scholarship.application}</p>
-            </div>
-        </div>
-    `;
-
-  return card;
-}
-
-// Function to create eligibility card
-function createEligibilityCard(program) {
-  const card = document.createElement("div");
-  card.className = "exam-card";
-
-  card.innerHTML = `
-        <div class="exam-name">${program.name}</div>
-        <div class="exam-details">
-            <div class="detail-section">
-                <h4>📋 Eligibility</h4>
-                <ul>
-                    ${program.eligibility
-                      .map((item) => `<li>${item}</li>`)
-                      .join("")}
-                </ul>
-            </div>
-            
-            <div class="detail-section">
-                <h4>⏱️ Duration</h4>
-                <p><strong>${program.duration}</strong></p>
-            </div>
-            
-            <div class="detail-section">
-                <h4>🎯 Specializations</h4>
-                <ul>
-                    ${program.specializations
-                      .map((item) => `<li>${item}</li>`)
-                      .join("")}
-                </ul>
-            </div>
-        </div>
-    `;
-
-  return card;
 }
 
 // Function to show fallback content

@@ -5,157 +5,131 @@
     {
       "name": "Indian Institute of Science (IISc), Bengaluru",
       "programs": ["MSc", "MTech", "PhD", "Integrated PhD"],
-      "specializations": ["Science", "Engineering", "Technology", "Research"],
       "website": "https://iisc.ac.in/"
     },
     {
       "name": "Indian Institutes of Technology (IITs)",
       "programs": ["MTech", "MSc", "MA", "MBA", "PhD"],
-      "specializations": ["Engineering", "Technology", "Science", "Management", "Humanities"],
       "website": "https://iitsystem.ac.in/"
     },
     {
       "name": "Jawaharlal Nehru University (JNU), Delhi",
       "programs": ["MA", "MSc", "MCA", "MTech", "PhD"],
-      "specializations": ["Social Sciences", "Humanities", "Science", "Technology", "Languages"],
       "website": "https://jnu.ac.in/"
     },
     {
       "name": "Banaras Hindu University (BHU), Varanasi",
       "programs": ["MA", "MSc", "MBA", "MTech", "PhD"],
-      "specializations": ["Arts", "Science", "Management", "Engineering", "Medicine"],
       "website": "https://bhu.ac.in/"
     },
     {
       "name": "University of Delhi (DU), Delhi",
       "programs": ["MA", "MSc", "MCom", "MCA", "MBA", "PhD"],
-      "specializations": ["Arts", "Science", "Commerce", "Computer Applications", "Management"],
       "website": "https://du.ac.in/"
     },
     {
       "name": "National Institutes of Technology (NITs)",
       "programs": ["MTech", "MCA", "MSc", "MBA", "PhD"],
-      "specializations": ["Engineering", "Technology", "Computer Applications", "Management"],
       "website": "https://nits.ac.in/"
     },
     {
       "name": "Tata Institute of Social Sciences (TISS), Mumbai",
       "programs": ["MA", "MHA", "MSW", "MPH", "PhD"],
-      "specializations": ["Social Sciences", "Social Work", "Health Administration", "Public Health"],
       "website": "https://tiss.edu/"
     },
     {
       "name": "Indian Institutes of Management (IIMs)",
       "programs": ["MBA", "PGDM", "PhD"],
-      "specializations": ["Business Administration", "Management", "Research"],
       "website": "https://iimcat.ac.in/"
     },
     {
       "name": "Indian Statistical Institute (ISI)",
       "programs": ["MSc", "MStat", "MS", "PhD"],
-      "specializations": ["Statistics", "Mathematics", "Computer Science", "Library Science"],
       "website": "https://www.isical.ac.in/"
     },
     {
       "name": "University of Hyderabad",
       "programs": ["MA", "MSc", "MBA", "MCA", "PhD", "Integrated PG"],
-      "specializations": ["Arts", "Science", "Management", "Computer Applications", "Research"],
       "website": "https://uohyd.ac.in/"
     },
     {
       "name": "Jadavpur University, Kolkata",
       "programs": ["MA", "MSc", "MTech", "MBA", "PhD"],
-      "specializations": ["Arts", "Science", "Engineering", "Management", "Research"],
       "website": "https://www.jaduniv.edu.in/"
     },
     {
       "name": "Anna University, Chennai",
       "programs": ["MTech", "MCA", "MSc", "MBA", "PhD"],
-      "specializations": ["Engineering", "Computer Applications", "Science", "Management", "Research"],
       "website": "https://www.annauniv.edu/"
     },
     {
       "name": "Jamia Millia Islamia, Delhi",
       "programs": ["MA", "MSc", "MTech", "MBA", "PhD"],
-      "specializations": ["Arts", "Science", "Engineering", "Management", "Research"],
       "website": "https://jmi.ac.in/"
     },
     {
       "name": "Indian Institutes of Science Education and Research (IISERs)",
       "programs": ["Integrated MSc-PhD", "PhD"],
-      "specializations": ["Science", "Research", "Integrated Programs"],
       "website": "https://iiseradmission.in/"
     },
     {
       "name": "Indian Maritime University (IMU)",
       "programs": ["MBA", "MSc", "MTech", "PhD"],
-      "specializations": ["Maritime Studies", "Business Administration", "Technology", "Research"],
       "website": "https://imu.edu.in/"
     },
     {
       "name": "All India Institute of Medical Sciences (AIIMS)",
       "programs": ["MD", "MS", "MSc", "MCh", "DM", "PhD"],
-      "specializations": ["Medical Sciences", "Surgery", "Research", "Specialized Medicine"],
       "website": "https://aiims.edu/"
     },
     {
       "name": "Indian Agricultural Research Institute (IARI)",
       "programs": ["MSc", "PhD"],
-      "specializations": ["Agriculture", "Horticulture", "Plant Breeding", "Soil Science"],
       "website": "https://www.iari.res.in/"
     },
     {
       "name": "Forest Research Institute (FRI) Dehradun",
       "programs": ["MSc (Forestry/Environment)", "PhD"],
-      "specializations": ["Forestry", "Environmental Science", "Wood Science", "Research"],
       "website": "https://fri.icfre.gov.in/"
     },
     {
       "name": "National Institute of Electronics and Information Technology (NIELIT)",
       "programs": ["PG Diploma", "MSc in Electronics and IT"],
-      "specializations": ["Electronics", "Information Technology", "Computer Science"],
       "website": "https://nielit.gov.in/"
     },
     {
       "name": "Centre for Development of Advanced Computing (C-DAC)",
       "programs": ["PG Diploma", "MSc in Advanced Computing", "VLSI", "Cybersecurity"],
-      "specializations": ["Advanced Computing", "VLSI Design", "Cybersecurity", "IoT"],
       "website": "https://cdac.in/"
     },
     {
       "name": "Indian Space Research Organisation (ISRO)",
       "programs": ["MSc", "MTech", "PhD (Space Science, Remote Sensing)"],
-      "specializations": ["Space Science", "Remote Sensing", "Satellite Technology", "Research"],
       "website": "https://www.isro.gov.in/"
     },
     {
       "name": "Defence Research and Development Organisation (DRDO)",
       "programs": ["MSc", "MTech", "PhD (Defence Technologies)"],
-      "specializations": ["Defence Technology", "Aerospace", "Electronics", "Research"],
       "website": "https://drdo.gov.in/"
     },
     {
       "name": "Council of Scientific and Industrial Research (CSIR)",
       "programs": ["MSc", "MTech", "PhD (Various science and technology disciplines)"],
-      "specializations": ["Science", "Technology", "Research", "Innovation"],
       "website": "https://www.csir.res.in/"
     },
     {
       "name": "Indian Council of Agricultural Research (ICAR)",
       "programs": ["MSc", "PhD (Agriculture and allied sciences)"],
-      "specializations": ["Agriculture", "Horticulture", "Veterinary Science", "Fishery"],
       "website": "https://icar.org.in/"
     },
     {
       "name": "National Institute of Pharmaceutical Education and Research (NIPER)",
       "programs": ["MSc", "MTech", "PhD (Pharmaceutical Sciences)"],
-      "specializations": ["Pharmaceutical Sciences", "Drug Discovery", "Pharmacy", "Research"],
       "website": "https://niper.gov.in/"
     },
     {
       "name": "Indian Institute of Toxicology Research (IITR)",
       "programs": ["MSc", "PhD (Toxicology, Environmental Sciences)"],
-      "specializations": ["Toxicology", "Environmental Sciences", "Risk Assessment", "Research"],
       "website": "https://www.iitrindia.org/"
     }
   ]

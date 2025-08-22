@@ -390,6 +390,108 @@ footer p {
   }
 }
 
+/* Responsive Tables */
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--card-background);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+}
+
+.data-table thead {
+  background: var(--accent-color);
+  color: white;
+}
+
+.data-table th {
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.data-table td {
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: top;
+}
+
+.data-table tbody tr:hover {
+  background-color: rgba(74, 144, 226, 0.05);
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+/* Table link styling */
+.data-table a {
+  color: var(--primary-color);
+  text-decoration: underline;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.data-table a:hover {
+  color: var(--accent-color);
+  text-decoration-thickness: 2px;
+}
+
+/* Mobile-first table responsiveness */
+@media (max-width: 767px) {
+  .data-table {
+    font-size: 0.85rem;
+  }
+  
+  .data-table th,
+  .data-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+  }
+  
+  .data-table th {
+    font-size: 0.9rem;
+  }
+  
+  /* Ensure table doesn't overflow on small screens */
+  .data-table {
+    min-width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  
+  .data-table table {
+    min-width: 600px;
+  }
+}
+
+/* Tablet and desktop table styles */
+@media (min-width: 768px) {
+  .data-table th,
+  .data-table td {
+    font-size: 1rem;
+  }
+  
+  .data-table th {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .data-table th,
+  .data-table td {
+    font-size: 1.05rem;
+  }
+  
+  .data-table th {
+    font-size: 1.15rem;
+  }
+}
+
 /* Loading States */
 .loading {
   text-align: center;
