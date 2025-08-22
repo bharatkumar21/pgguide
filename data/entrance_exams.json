@@ -1,0 +1,813 @@
+{
+  "title": "Major Entrance Examinations",
+  "description": "Key entrance tests for postgraduate programs across India",
+  "exams": [
+    {
+      "name": "CUET (Central Universities Entrance Test)",
+      "category": "Multiple",
+      "programs": ["MA", "MSc", "MCA", "MBA", "MSW", "Other PG programs"],
+      "eligibility": [
+        "Bachelor's degree in relevant discipline",
+        "Minimum percentage varies by university",
+        "Final year students can also apply"
+      ],
+      "syllabus": [
+        "Subject knowledge",
+        "General aptitude",
+        "Language skills",
+        "Domain-specific questions"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: June-July",
+        "Result: August"
+      ],
+      "applicationProcess": [
+        "Online registration",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://cuet.nta.nic.in/"
+    },
+    {
+      "name": "UGC NET (for PhD with 4-year degree)",
+      "category": "Research",
+      "programs": ["PhD Programs"],
+      "eligibility": [
+        "Master's degree with 55% marks",
+        "4-year degree holders eligible for PhD",
+        "No age limit for Assistant Professor"
+      ],
+      "syllabus": [
+        "Paper 1: Teaching and Research Aptitude",
+        "Paper 2: Subject-specific questions",
+        "General awareness and reasoning"
+      ],
+      "importantDates": [
+        "Application: March-April, August-September",
+        "Exam: June, December",
+        "Result: July, January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://ugcnet.nta.nic.in/"
+    },
+    {
+      "name": "GATE (Graduate Aptitude Test in Engineering)",
+      "category": "Engineering/Technology",
+      "programs": ["MTech", "ME", "MSc", "PhD"],
+      "eligibility": [
+        "BTech/BE or equivalent engineering degree",
+        "Final year students eligible",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Engineering Mathematics",
+        "General Aptitude",
+        "Subject-specific topics",
+        "Technical knowledge"
+      ],
+      "importantDates": [
+        "Application: August-September",
+        "Exam: February",
+        "Result: March"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://gate.iitk.ac.in/"
+    },
+    {
+      "name": "CLAT (Common Law Admission Test)",
+      "category": "Law",
+      "programs": ["LLM"],
+      "eligibility": [
+        "LLB degree or equivalent",
+        "Final year students eligible",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Constitutional Law",
+        "Jurisprudence",
+        "Other Law Subjects",
+        "English Language",
+        "Current Affairs"
+      ],
+      "importantDates": [
+        "Application: January-March",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online registration",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://consortiumofnlus.ac.in/"
+    },
+    {
+      "name": "AILET (All India Law Entrance Test)",
+      "category": "Law",
+      "programs": ["LLM"],
+      "eligibility": [
+        "LLB degree or equivalent",
+        "Final year students eligible",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Constitutional Law",
+        "Jurisprudence",
+        "Other Law Subjects",
+        "English Language",
+        "Current Affairs"
+      ],
+      "importantDates": [
+        "Application: January-March",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://nludelhi.ac.in/"
+    },
+    {
+      "name": "CAT (Common Admission Test)",
+      "category": "Management",
+      "programs": ["MBA", "PGDM"],
+      "eligibility": [
+        "Bachelor's degree with 50% marks",
+        "Final year students can apply",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Verbal Ability and Reading Comprehension",
+        "Data Interpretation and Logical Reasoning",
+        "Quantitative Ability"
+      ],
+      "importantDates": [
+        "Application: August-September",
+        "Exam: November-December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online registration",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://iimcat.ac.in/"
+    },
+    {
+      "name": "XAT (Xavier Aptitude Test)",
+      "category": "Management",
+      "programs": ["MBA", "PGDM"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Final year students eligible",
+        "No age limit"
+      ],
+      "syllabus": [
+        "Verbal and Logical Ability",
+        "Decision Making",
+        "Quantitative Ability and Data Interpretation",
+        "General Knowledge"
+      ],
+      "importantDates": [
+        "Application: August-December",
+        "Exam: January",
+        "Result: February"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://xatonline.in/"
+    },
+    {
+      "name": "CMAT (Common Management Admission Test)",
+      "category": "Management",
+      "programs": ["MBA", "PGDM"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Final year students eligible",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Quantitative Techniques & Data Interpretation",
+        "Logical Reasoning",
+        "Language Comprehension",
+        "General Awareness"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://cmat.nta.nic.in/"
+    },
+    {
+      "name": "MAT (Management Aptitude Test)",
+      "category": "Management",
+      "programs": ["MBA", "PGDM"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Final year students eligible",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Language Comprehension",
+        "Mathematical Skills",
+        "Data Analysis & Sufficiency",
+        "Intelligence & Critical Reasoning",
+        "Indian & Global Environment"
+      ],
+      "importantDates": [
+        "Multiple sessions throughout the year",
+        "February, May, September, December",
+        "Result: Within 2-3 weeks"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://mat.aima.in/"
+    },
+    {
+      "name": "JAM (Joint Admission Test for MSc)",
+      "category": "Science",
+      "programs": ["MSc", "Integrated PhD"],
+      "eligibility": [
+        "Bachelor's degree in Science",
+        "Mathematics background for some subjects",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Mathematics",
+        "Physics",
+        "Chemistry",
+        "Biotechnology",
+        "Geology",
+        "Mathematical Statistics"
+      ],
+      "importantDates": [
+        "Application: September-October",
+        "Exam: February",
+        "Result: March"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://jam.iitm.ac.in/"
+    },
+    {
+      "name": "ICAR AIEEA-PG",
+      "category": "Agriculture",
+      "programs": ["MSc (Agriculture & Allied Subjects)"],
+      "eligibility": [
+        "Bachelor's degree in Agriculture or related field",
+        "Minimum 60% marks (55% for SC/ST)",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Agriculture",
+        "Horticulture",
+        "Forestry",
+        "Veterinary Science",
+        "Fishery Science",
+        "Home Science"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: June",
+        "Result: July"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://icar.org.in/"
+    },
+    {
+      "name": "TIFR (Tata Institute of Fundamental Research)",
+      "category": "Science",
+      "programs": ["MSc", "Integrated PhD", "PhD (Science)"],
+      "eligibility": [
+        "Bachelor's degree in Science",
+        "Strong academic background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Mathematics",
+        "Computer Science"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://univ.tifr.res.in/"
+    },
+    {
+      "name": "JGEEBILS (Joint Graduate Entrance for Biology)",
+      "category": "Biology",
+      "programs": ["MSc", "Integrated PhD", "PhD (Biological Sciences)"],
+      "eligibility": [
+        "Bachelor's degree in Biology or related field",
+        "Strong academic background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Biology",
+        "Biochemistry",
+        "Genetics",
+        "Microbiology",
+        "Cell Biology",
+        "Molecular Biology"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://univ.tifr.res.in/"
+    },
+    {
+      "name": "NIFT (National Institute of Fashion Technology)",
+      "category": "Design",
+      "programs": ["M.Des", "M.F.M", "M.FTech"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Creative aptitude test",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Creative Ability Test",
+        "General Ability Test",
+        "Situation Test",
+        "Group Discussion",
+        "Personal Interview"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: February",
+        "Result: March"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://nift.ac.in/"
+    },
+    {
+      "name": "FTII JET (Film & Television Institute of India)",
+      "category": "Media",
+      "programs": ["PG Diploma in Film/TV", "Acting", "Screenwriting"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Creative aptitude",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Creative Aptitude Test",
+        "General Knowledge",
+        "Film Appreciation",
+        "Audiovisual Test",
+        "Personal Interview"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://ftii.ac.in/"
+    },
+    {
+      "name": "C-DAC (Centre for Development of Advanced Computing)",
+      "category": "Technology",
+      "programs": ["PG Diploma in Advanced Computing", "VLSI", "IoT", "etc."],
+      "eligibility": [
+        "Bachelor's degree in Engineering/Technology",
+        "Computer Science background preferred",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Computer Science",
+        "Programming",
+        "Data Structures",
+        "Algorithms",
+        "Database Systems"
+      ],
+      "importantDates": [
+        "Multiple sessions throughout the year",
+        "January, May, September",
+        "Result: Within 2-3 weeks"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://cdac.in/"
+    },
+    {
+      "name": "APU (Azim Premji University Exam)",
+      "category": "Multiple",
+      "programs": ["MA (Development, Education, Economics, Public Policy)", "LLM"],
+      "eligibility": [
+        "Bachelor's degree in relevant discipline",
+        "Strong academic background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Subject knowledge",
+        "General aptitude",
+        "Writing skills",
+        "Current affairs"
+      ],
+      "importantDates": [
+        "Application: January-March",
+        "Exam: April",
+        "Result: May"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://azimpremjiuniversity.edu.in/"
+    },
+    {
+      "name": "ISI (Indian Statistical Institute)",
+      "category": "Statistics",
+      "programs": ["MStat", "MMath", "MSc QE", "MS (LIS)", "MSc Library and Information Sci"],
+      "eligibility": [
+        "Bachelor's degree in Mathematics/Statistics",
+        "Strong mathematical background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Mathematics",
+        "Statistics",
+        "Probability",
+        "Linear Algebra",
+        "Calculus"
+      ],
+      "importantDates": [
+        "Application: February-March",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://www.isical.ac.in/"
+    },
+    {
+      "name": "FRI MSc (Forest Research Institute) Entrance",
+      "category": "Forestry",
+      "programs": ["MSc (Forestry, Environment, Wood Science, Cellulose & Paper)"],
+      "eligibility": [
+        "Bachelor's degree in Forestry or related field",
+        "Minimum 60% marks",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Forestry",
+        "Environmental Science",
+        "Wood Science",
+        "Biology",
+        "Chemistry"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://fri.icfre.gov.in/"
+    },
+    {
+      "name": "IISER (Kolkata, Bhopal, Mohali, Tirupati, etc.)",
+      "category": "Science",
+      "programs": ["Integrated PhD", "MSc", "PhD (Science)"],
+      "eligibility": [
+        "Bachelor's degree in Science",
+        "Strong academic background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Physics",
+        "Chemistry",
+        "Biology",
+        "Mathematics",
+        "Earth Sciences"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://iiseradmission.in/"
+    },
+    {
+      "name": "JEST (Joint Entrance Screening Test)",
+      "category": "Physics",
+      "programs": ["PhD", "Integrated PhD (Physics, Theoretical CS)"],
+      "eligibility": [
+        "Bachelor's degree in Physics/Mathematics",
+        "Strong academic background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Physics",
+        "Mathematics",
+        "Theoretical Computer Science",
+        "Quantum Mechanics",
+        "Classical Mechanics"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://jest.nta.nic.in/"
+    },
+    {
+      "name": "NBHM (National Board for Higher Mathematics)",
+      "category": "Mathematics",
+      "programs": ["MSc", "PhD (Mathematics)"],
+      "eligibility": [
+        "Bachelor's degree in Mathematics",
+        "Strong mathematical background",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Real Analysis",
+        "Linear Algebra",
+        "Abstract Algebra",
+        "Topology",
+        "Complex Analysis"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: December",
+        "Result: January"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://nbhm.dae.gov.in/"
+    },
+    {
+      "name": "CEED (Common Entrance Exam for Design)",
+      "category": "Design",
+      "programs": ["MDes (Master of Design)", "PhD (Design)"],
+      "eligibility": [
+        "Bachelor's degree in Design or related field",
+        "Creative aptitude",
+        "No age restriction"
+      ],
+      "syllabus": [
+        "Design Aptitude",
+        "Visual Design",
+        "Sketching",
+        "Creativity",
+        "Problem Solving"
+      ],
+      "importantDates": [
+        "Application: September-October",
+        "Exam: January",
+        "Result: February"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://ceed.iitb.ac.in/"
+    },
+    {
+      "name": "JMI Mass Communication Entrance Exam",
+      "category": "Media",
+      "programs": ["MA (Mass Communication)", "PG Diplomas"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Communication skills",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Current Affairs",
+        "Media Studies",
+        "Communication Theory",
+        "General Knowledge",
+        "English Language"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://jmi.ac.in/"
+    },
+    {
+      "name": "ICAI (Institute of Chartered Accountants of India)",
+      "category": "Commerce",
+      "programs": ["Chartered Accountancy (CA)"],
+      "eligibility": [
+        "10+2 or equivalent",
+        "No age restriction",
+        "Direct entry available"
+      ],
+      "syllabus": [
+        "Accounting",
+        "Law",
+        "Taxation",
+        "Auditing",
+        "Financial Management"
+      ],
+      "importantDates": [
+        "Multiple sessions throughout the year",
+        "May, November",
+        "Result: Within 2-3 months"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Study material dispatch"
+      ],
+      "website": "https://icai.org/"
+    },
+    {
+      "name": "TISS (Tata Institute of Social Sciences)",
+      "category": "Social Sciences",
+      "programs": ["MA", "MHA", "MPH", "MHRM", "MSW", "other PG Programs"],
+      "eligibility": [
+        "Bachelor's degree in any discipline",
+        "Social awareness",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Social Sciences",
+        "Current Affairs",
+        "General Knowledge",
+        "English Language",
+        "Logical Reasoning"
+      ],
+      "importantDates": [
+        "Application: December-January",
+        "Exam: February",
+        "Result: March"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document upload",
+        "Fee payment",
+        "Admit card download"
+      ],
+      "website": "https://tiss.edu/"
+    },
+    {
+      "name": "IMU (Indian Maritime University)",
+      "category": "Maritime",
+      "programs": ["MBA", "MSc", "MTech"],
+      "eligibility": [
+        "Bachelor's degree in relevant discipline",
+        "Maritime background preferred",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Maritime Studies",
+        "Business Administration",
+        "Technology",
+        "General Knowledge",
+        "English Language"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://imu.edu.in/"
+    },
+    {
+      "name": "Indian Petroleum Institute (IIP/PDPU etc.)",
+      "category": "Petroleum",
+      "programs": ["MSc", "MTech (Petroleum, Energy, etc.)"],
+      "eligibility": [
+        "Bachelor's degree in Engineering/Science",
+        "Petroleum background preferred",
+        "Final year students eligible"
+      ],
+      "syllabus": [
+        "Petroleum Engineering",
+        "Chemical Engineering",
+        "Mechanical Engineering",
+        "General Knowledge",
+        "English Language"
+      ],
+      "importantDates": [
+        "Application: March-April",
+        "Exam: May",
+        "Result: June"
+      ],
+      "applicationProcess": [
+        "Online application",
+        "Document verification",
+        "Fee payment",
+        "Admit card generation"
+      ],
+      "website": "https://pdpu.ac.in/"
+    }
+  ]
+}
+

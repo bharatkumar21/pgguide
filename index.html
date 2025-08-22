@@ -1,240 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Postgraduate Entrance Exam Information Portal</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Resources and guidance for students on entrance exams for postgraduate courses (MA, MCA, MBA) in India.">
-  <style>
-    body {
-      background: #eef2f7;
-      margin: 0;
-      font-family: 'Segoe UI', Arial, sans-serif;
-      color: #222;
-    }
-    header {
-      background: #234078;
-      color: #fff;
-      padding: 1.5rem 2rem;
-      text-align: center;
-    }
-    nav {
-      margin: 1rem 0;
-      background: #183157;
-      padding: 0.5rem 0;
-      text-align: center;
-    }
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      margin: 0 1.5rem;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem;
-      margin: 2rem auto;
-      max-width: 850px;
-      background: #fff;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(60,80,105,0.08);
-    }
-    h1, h2, h3 {
-      color: #234078;
-    }
-    ul {
-      line-height: 1.6;
-      padding-left: 1.5rem;
-    }
-    .exam-block {
-      background: #f4fafe;
-      margin-bottom: 2rem;
-      padding: 1.2rem 1.2rem 0.5rem 1.2rem;
-      border-left: 6px solid #234078;
-      border-radius: 6px;
-    }
-    .exam-block h3 {
-      margin-top: 0;
-    }
-    .contact-form label {
-      display: block;
-      margin: 0.7rem 0 0.3rem 0;
-    }
-    .contact-form input,
-    .contact-form textarea {
-      width: 96%;
-      padding: 0.7rem;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-      margin-bottom: 0.7rem;
-      font-size: 1rem;
-    }
-    .contact-form button {
-      background: #234078;
-      color: #fff;
-      border: none;
-      padding: 0.8rem 2rem;
-      font-size: 1rem;
-      border-radius: 5px;
-      cursor: pointer;
-      margin-bottom: 1.5rem;
-    }
-    .contact-form button:hover {
-      background: #183157;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #f4fafe;
-      color: #234078;
-      font-size: 0.97rem;
-      margin-top: 2rem;
-    }
-    @media (max-width: 600px) {
-      section {
-        padding: 1rem;
-        margin: 1rem;
-      }
-      nav a {
-        margin: 0 0.7rem;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Portal - Postgraduate Entrance Exam Information</title>
+    <meta name="description" content="Comprehensive guide to MA, MCA, MBA, MSc, MTech entrance examinations in India. Find eligibility criteria, syllabus, important dates, top institutes, scholarships, and application processes.">
+    <meta name="keywords" content="PG entrance exams, MA entrance, MSc entrance, MCA entrance, MBA entrance, MTech entrance, CAT, XAT, GATE, CUET-PG, JAM, NIMCET, UGC NET">
+    
+    <!-- Preload fonts for better performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 <body>
-  <header>
-    <h1>Postgraduate Entrance Exam Information Portal</h1>
-    <p>Your gateway to MA, MCA, and MBA admissions</p>
-  </header>
-  <nav>
-    <a href="#ma">MA Entrance Exams</a>
-    <a href="#mca">MCA Entrance Exams</a>
-    <a href="#mba">MBA Entrance Exams</a>
-    <a href="#resources">Resources</a>
-    <a href="#contact">Contact</a>
-  </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>PG Portal</h1>
+            <p>Your comprehensive guide to Postgraduate Entrance Examinations in India</p>
+        </div>
+    </header>
 
-  <section id="ma">
-    <div class="exam-block">
-      <h2>MA Entrance Exams</h2>
-      <h3>Popular Exams:</h3>
-      <ul>
-        <li>
-          <strong>Central Universities Entrance Test (CUET-PG):</strong> For admission to MA programs in Central Universities and other participating institutions.
-        </li>
-        <li>
-          <strong>Jawaharlal Nehru University Entrance Exam (JNUEE):</strong> MA programs at JNU.
-        </li>
-        <li>
-          <strong>Banaras Hindu University Postgraduate Entrance Test (BHU PET):</strong> Admission to MA at BHU.
-        </li>
-        <li>
-          <strong>Delhi University Entrance Test (DUET):</strong> For MA and other postgraduate courses at DU.
-        </li>
-      </ul>
-      <p>
-        <strong>Eligibility:</strong> Bachelor’s degree in relevant discipline. Minimum percentage varies by university.
-      </p>
-      <p>
-        <strong>Syllabus:</strong> Subject knowledge, general aptitude, social sciences, literature (based on course).
-      </p>
-    </div>
-  </section>
+    <!-- Navigation -->
+    <nav class="nav-container">
+        <div class="nav-tabs">
+            <button class="nav-tab active" data-tab="home">🏠 Home</button>
+            <button class="nav-tab" data-tab="entrance_exams">📝 Entrance Exams</button>
+            <button class="nav-tab" data-tab="top_institutes">🏛️ Top Institutes</button>
+            <button class="nav-tab" data-tab="scholarships">💰 Scholarships</button>
+            <button class="nav-tab" data-tab="eligibility">✅ Eligibility</button>
+            <button class="nav-tab" data-tab="resources">📚 Resources</button>
+            <button class="nav-tab" data-tab="contact">📞 Contact</button>
+        </div>
+    </nav>
 
-  <section id="mca">
-    <div class="exam-block">
-      <h2>MCA Entrance Exams</h2>
-      <h3>Major Exams:</h3>
-      <ul>
-        <li>
-          <strong>NIT MCA Common Entrance Test (NIMCET):</strong> Entry to NITs for MCA programs.
-        </li>
-        <li>
-          <strong>MAH MCA CET:</strong> For MCA admissions in Maharashtra universities.
-        </li>
-        <li>
-          <strong>CUET-PG:</strong> Participating Central Universities.
-        </li>
-        <li>
-          <strong>WB JECA:</strong> MCA admissions in West Bengal.
-        </li>
-      </ul>
-      <p>
-        <strong>Eligibility:</strong> Bachelor’s degree with Mathematics as a subject.
-      </p>
-      <p>
-        <strong>Syllabus:</strong> Mathematics, Logical Reasoning, Computer Awareness, General English.
-      </p>
-    </div>
-  </section>
+    <!-- Main Content -->
+    <main class="main-container">
+        <!-- Home Tab -->
+        <div id="home" class="tab-content active">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Welcome to PG Portal</h2>
+                    <p class="card-subtitle">Your one-stop destination for postgraduate entrance exam information</p>
+                </div>
+                <p>Navigate through the tabs above to explore detailed information about various postgraduate entrance examinations, top institutes, scholarships, and eligibility criteria across India.</p>
+            </div>
+            
+            <div id="home-container">
+                <!-- Home categories will be loaded here dynamically -->
+                <div class="loading">Loading categories...</div>
+            </div>
+        </div>
 
-  <section id="mba">
-    <div class="exam-block">
-      <h2>MBA Entrance Exams</h2>
-      <h3>Top Exams:</h3>
-      <ul>
-        <li>
-          <strong>Common Admission Test (CAT):</strong> For IIMs and other B-Schools.
-        </li>
-        <li>
-          <strong>Xavier Aptitude Test (XAT):</strong> XLRI and other management colleges.
-        </li>
-        <li>
-          <strong>Management Aptitude Test (MAT):</strong> Accepting B-Schools across India.
-        </li>
-        <li>
-          <strong>Graduate Management Admission Test (GMAT):</strong> For global MBA programs.
-        </li>
-        <li>
-          <strong>Symbiosis National Aptitude Test (SNAP):</strong> For Symbiosis institutes.
-        </li>
-        <li>
-          <strong>MAH MBA CET:</strong> MBA programs in Maharashtra.
-        </li>
-      </ul>
-      <p>
-        <strong>Eligibility:</strong> Bachelor’s degree with minimum 50% marks (varies).
-      </p>
-      <p>
-        <strong>Syllabus:</strong> Quantitative Aptitude, Data Interpretation, Logical Reasoning, Verbal Ability, General Awareness.
-      </p>
-    </div>
-  </section>
+        <!-- Entrance Exams Tab -->
+        <div id="entrance_exams" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Major Entrance Examinations</h2>
+                    <p class="card-subtitle">Key entrance tests for postgraduate programs across India</p>
+                </div>
+                <p>Explore comprehensive information about major entrance examinations including eligibility criteria, syllabus, important dates, and application processes.</p>
+            </div>
+            
+            <div id="entrance-exams-container">
+                <!-- Entrance exams will be loaded here dynamically -->
+                <div class="loading">Loading entrance exam information...</div>
+            </div>
+        </div>
 
-  <section id="resources">
-    <h2>Helpful Resources</h2>
-    <ul>
-      <li><strong>Official Exam Websites:</strong> Check for latest notifications, syllabus, and dates.</li>
-      <li><strong>Sample Papers:</strong> Download or practice previous year question papers.</li>
-      <li><strong>Preparation Books:</strong> Refer recommended books for each exam.</li>
-      <li><strong>Discussion Forums:</strong> Participate in online student communities for peer guidance.</li>
-      <li><strong>Counselling and Admission Info:</strong> Get details on counselling schedules and college choices.</li>
-    </ul>
-  </section>
+        <!-- Top Institutes Tab -->
+        <div id="top_institutes" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Top Institutes & Universities</h2>
+                    <p class="card-subtitle">Premier institutions offering postgraduate programs across India</p>
+                </div>
+                <p>Discover information about top universities, IITs, NITs, Central Universities, and other premier institutions offering postgraduate programs.</p>
+            </div>
+            
+            <div id="top-institutes-container">
+                <!-- Top institutes will be loaded here dynamically -->
+                <div class="loading">Loading institute information...</div>
+            </div>
+        </div>
 
-  <section id="contact">
-    <h2>Contact & Feedback</h2>
-    <form class="contact-form" name="contact" method="POST" data-netlify="true">
-      <label for="name">Your Name:</label>
-      <input type="text" id="name" name="name" required>
+        <!-- Scholarships Tab -->
+        <div id="scholarships" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Scholarships & Financial Aid</h2>
+                    <p class="card-subtitle">Financial support options for postgraduate students</p>
+                </div>
+                <p>Explore various scholarships, fellowships, and financial aid options available for postgraduate students, including government schemes and institutional support.</p>
+            </div>
+            
+            <div id="scholarships-container">
+                <!-- Scholarships will be loaded here dynamically -->
+                <div class="loading">Loading scholarship information...</div>
+            </div>
+        </div>
 
-      <label for="email">Email Address:</label>
-      <input type="email" id="email" name="email" required>
+        <!-- Eligibility Tab -->
+        <div id="eligibility" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>General Eligibility Criteria</h2>
+                    <p class="card-subtitle">Basic requirements for various postgraduate programs</p>
+                </div>
+                <p>Understand the general eligibility criteria, duration, and specializations for different postgraduate programs across various disciplines.</p>
+            </div>
+            
+            <div id="eligibility-container">
+                <!-- Eligibility criteria will be loaded here dynamically -->
+                <div class="loading">Loading eligibility information...</div>
+            </div>
+        </div>
 
-      <label for="message">Your Message or Query:</label>
-      <textarea id="message" name="message" rows="5" required></textarea>
+        <!-- Resources Tab -->
+        <div id="resources" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Study Resources & Preparation Tips</h2>
+                    <p class="card-subtitle">Essential resources and guidance for exam preparation</p>
+                </div>
+            </div>
+            
+            <div id="resources-container">
+                <!-- Resources will be loaded here dynamically -->
+                <div class="loading">Loading study resources...</div>
+            </div>
+        </div>
 
-      <button type="submit">Send</button>
-    </form>
-    <p style="font-size:0.95rem; color:#183157;">
-      For urgent queries, email: <a href="mailto:info@yourdomain.com">info@yourdomain.com</a>
-    </p>
-  </section>
+        <!-- Contact Tab -->
+        <div id="contact" class="tab-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Contact & Support</h2>
+                    <p class="card-subtitle">Get in touch with us for any queries</p>
+                </div>
+                
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h3>📧 Email Us</h3>
+                        <p>For general inquiries and support:</p>
+                        <a href="mailto:info@pgportal.in" class="btn">Send Email</a>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>💬 Feedback</h3>
+                        <p>Help us improve by sharing your feedback:</p>
+                        <button class="btn btn-secondary" onclick="openFeedbackForm()">Share Feedback</button>
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h3>📝 Contact Form</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="grid grid-2">
+                            <div>
+                                <label for="name">Full Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                            </div>
+                            <div>
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What is this about?">
+                        </div>
+                        
+                        <div>
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Please describe your query or feedback..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
 
-  <footer>
-    &copy; 2025 Entrance Exam Info Portal | Made for students  
-  </footer>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PG Portal. All rights reserved. | Comprehensive guide to postgraduate entrance examinations in India.</p>
+            <p>Made with ❤️ for students pursuing higher education</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Essential Functions Script -->
+    <script>
+        // Function to switch tabs programmatically
+        function switchTab(tabName) {
+            const tabs = document.querySelectorAll('.nav-tab');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            // Remove active class from all tabs and contents
+            tabs.forEach(t => t.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Add active class to target tab
+            const targetTab = document.querySelector(`[data-tab="${tabName}"]`);
+            const targetContent = document.getElementById(tabName);
+            
+            if (targetTab && targetContent) {
+                targetTab.classList.add('active');
+                targetContent.classList.add('active');
+            }
+        }
+
+        // Function to open feedback form
+        function openFeedbackForm() {
+            // Scroll to contact form
+            document.getElementById('contactForm').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        // Handle contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simple validation
+            if (!name || !email || !message) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            // Show success message (in a real app, this would send to a server)
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset();
+        });
+    </script>
 </body>
 </html>

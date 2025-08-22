@@ -1,0 +1,47 @@
+{
+  "title": "PG Portal - Postgraduate Entrance Exam Information",
+  "description": "Comprehensive guide to postgraduate entrance examinations in India",
+  "categories": [
+    {
+      "name": "MA Programs",
+      "description": "Master of Arts entrance examinations for various specializations",
+      "icon": "🎓"
+    },
+    {
+      "name": "MSc Programs", 
+      "description": "Master of Science entrance examinations for science and technology",
+      "icon": "🔬"
+    },
+    {
+      "name": "MBA Programs",
+      "description": "Master of Business Administration entrance examinations",
+      "icon": "📊"
+    },
+    {
+      "name": "MCA Programs",
+      "description": "Master of Computer Applications entrance examinations",
+      "icon": "💻"
+    },
+    {
+      "name": "MTech Programs",
+      "description": "Master of Technology entrance examinations",
+      "icon": "⚙️"
+    },
+    {
+      "name": "Law Programs",
+      "description": "Master of Law (LLM) entrance examinations",
+      "icon": "⚖️"
+    },
+    {
+      "name": "Design Programs",
+      "description": "Master of Design and Fashion Technology programs",
+      "icon": "🎨"
+    },
+    {
+      "name": "Research Programs",
+      "description": "PhD and Integrated PhD programs",
+      "icon": "🔍"
+    }
+  ]
+}
+

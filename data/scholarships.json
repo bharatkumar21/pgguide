@@ -1,0 +1,109 @@
+{
+  "title": "Scholarships & Financial Aid",
+  "description": "Financial support options for postgraduate students",
+  "scholarships": [
+    {
+      "name": "Post-Graduate Scholarships for Professional Courses SC/ST",
+      "eligibility": "Reserved for SC/ST candidates pursuing professional PG courses",
+      "coverage": "Provided by various state governments and central schemes",
+      "application": "Annual application through respective institutions"
+    },
+    {
+      "name": "National Scholarship for Postgraduate Studies",
+      "eligibility": "Based on undergraduate marks and category (SC/ST/OBC/etc.)",
+      "coverage": "Annual application, verified by respective institutions",
+      "application": "Apply through National Scholarship Portal"
+    },
+    {
+      "name": "Indira Gandhi Single Girl Child Scholarship",
+      "eligibility": "For single girl child pursuing PG courses",
+      "coverage": "Conditions on family income and state rules",
+      "application": "Apply through respective state education departments"
+    },
+    {
+      "name": "GATE Scholarship",
+      "eligibility": "For GATE-qualified candidates pursuing M.Tech/PhD in IITs/NITs",
+      "coverage": "Stipend provided monthly for M.Tech and PhD students",
+      "application": "Automatic consideration for GATE-qualified students"
+    },
+    {
+      "name": "NET JRF Fellowship",
+      "eligibility": "For NET-qualified Junior Research Fellows pursuing PhD",
+      "coverage": "Monthly fellowship with contingency grants",
+      "application": "Apply through UGC NET application process"
+    },
+    {
+      "name": "Azim Premji University (APU) Fellowship",
+      "eligibility": "Available for SC/ST on merit and need basis",
+      "coverage": "Institute-specific scholarships and fee waivers",
+      "application": "Apply through APU admission process"
+    },
+    {
+      "name": "Institute Fellowships (up to 1000 INR monthly)",
+      "eligibility": "For students enrolled in select institutions",
+      "coverage": "Varies widely by university and state",
+      "application": "Apply through respective institutions"
+    },
+    {
+      "name": "NIELIT Scholarships for SC/ST",
+      "eligibility": "Fee waivers and scholarships for SC/ST candidates",
+      "coverage": "Announced periodically by NIELIT",
+      "application": "Apply through NIELIT centers"
+    },
+    {
+      "name": "C-DAC Scholarships for SC/ST",
+      "eligibility": "Fee concessions and fellowships for SC/ST",
+      "coverage": "Institute-specific notifications",
+      "application": "Apply through C-DAC centers"
+    },
+    {
+      "name": "PhD Fellowships: NFSC, NFST, NFOBC",
+      "eligibility": "Eligibility based on UGC NET scores and Non-NET criteria",
+      "coverage": "Full-time research fellowships under UGC and ministry schemes",
+      "application": "Apply through UGC and respective ministries"
+    },
+    {
+      "name": "Babasaheb Bhimrao Ambedkar University (BBAU) SC/ST Scholarships",
+      "eligibility": "Reserved seats and scholarships for SC/ST students",
+      "coverage": "Announced by BBAU authorities",
+      "application": "Apply through BBAU admission process"
+    },
+    {
+      "name": "IITs",
+      "eligibility": "Tuition fee waivers and fellowships for SC/ST",
+      "coverage": "Varies by IIT, frequently updated in academic notices",
+      "application": "Apply through respective IIT admission process"
+    },
+    {
+      "name": "Selected NITs",
+      "eligibility": "Fee waivers and scholarships for SC/ST candidates",
+      "coverage": "Specific NITs announce yearly benefits",
+      "application": "Apply through respective NIT admission process"
+    },
+    {
+      "name": "Indira Gandhi National Open University (IGNOU)",
+      "eligibility": "Tuition fee exemptions for SC/ST",
+      "coverage": "Open admissions with fee concessions",
+      "application": "Apply through IGNOU admission process"
+    },
+    {
+      "name": "Central Universities (select)",
+      "eligibility": "Scholarships and fee waivers for SC/ST students",
+      "coverage": "Depends on university budget and policies",
+      "application": "Apply through respective university admission process"
+    },
+    {
+      "name": "Indian Institute of Engineering Science and Technology (IIEST), Shibpur",
+      "eligibility": "SC/ST scholarships and fee waivers",
+      "coverage": "As per university rules",
+      "application": "Apply through IIEST admission process"
+    },
+    {
+      "name": "Dr. B.R. Ambedkar University, Delhi",
+      "eligibility": "SC/ST fellowships and fee waivers",
+      "coverage": "Institute-level schemes and central govt support",
+      "application": "Apply through BRAU admission process"
+    }
+  ]
+}
+
