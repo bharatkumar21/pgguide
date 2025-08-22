@@ -1,2 +1,2 @@
-# pgguide.github.io
+# pgguide
 Guidance for PG admissions
